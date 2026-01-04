@@ -46,7 +46,7 @@ function App() {
         setLoading(false);
       })
       .catch(() => {
-        setApiError("Quote load nahi ho paya");
+        setApiError("Unable to fetch");
         setLoading(false);
       });
   }
